@@ -16,7 +16,7 @@ def create_user(i):
 
     user['customer_id'] = i
     user['name'] = name.strip()
-    user ["second_name"] = second_name.strip()
+    user["second_name"] = second_name.strip()
     user["address"] = fake.address()
     user["company"] = "Mondial"
     user['gender'] = "muski" 
